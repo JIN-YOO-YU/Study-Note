@@ -81,5 +81,22 @@ public void onClick(View v) {
     // 버튼 클릭 시 실행될 코드
 }
 ```
+> + AdapterView.OnItemClickListener: ListView, Spinner 같은 AdapterView 항목이 클릭되었을 때 호출되는 이벤트 리스너 인터페이스
+이것도 마찬가지로 이 인터페이스를 구현했다면, 아래 메서드를 구현해야함
 
 
+```
+@Override
+public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+    // 리스트 아이템 클릭 시 실행될 코드
+}
+```
+
++ 정리
+
+
+```
+public class MainActivity extends AppCompatActivity 
+        implements View.OnClickListener, AdapterView.OnItemClickListener
+```
+> + 이 클래스는 AppCompatActivity를 기반으로 만들어졌고, 버튼이 클릭되거나 리스트 아이템이 클릭될 때 각각의 행동을 내가 직접 정의해서 처리할 수 있음
