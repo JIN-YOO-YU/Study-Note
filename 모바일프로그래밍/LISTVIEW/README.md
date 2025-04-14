@@ -104,12 +104,19 @@ public class MainActivity extends AppCompatActivity
 
 + 필드 선언 전체 코드
 
-+ ```
+
+```
   private String[] list_items = {"item01","item02","item03","item04","item05","item06","item07","item08","item09","item10",
         "item11","item12","item13","item14","item15"};
 Button btn01;
 ListView lv;
 ```
+
+> + private String[] list_items = {...};
+> + private: 접근 제한자 중 하나로 변수나 메서드에 대한 접근 범위를 제한하는 역활 위에 같은 경우 list_item 변수는 MainActivity 클래스 내부에서만 사용 가능하고 다른 클래스나 외부에서는 접근 불가능
+> + String[]: 문자열(String)들을 여러 개 담을 수 있는 배열(array)
+> + list_items = {...}: 배열 안에는 "item01"부터 "item15"까지 총 15개의 문자열이 들어 있고 이 문자열들은 리스트뷰에 보여질 항목
+> + 역활은 리스트뷰에 표시할 데이터 소스 역활
 
 
   
