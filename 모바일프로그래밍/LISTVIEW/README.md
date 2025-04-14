@@ -92,7 +92,7 @@ public void onItemClick(AdapterView<?> parent, View view, int position, long id)
 }
 ```
 
-+ 정리
++ 클래스 선언 정리
 
 
 ```
@@ -100,3 +100,16 @@ public class MainActivity extends AppCompatActivity
         implements View.OnClickListener, AdapterView.OnItemClickListener
 ```
 > + 이 클래스는 AppCompatActivity를 기반으로 만들어졌고, 버튼이 클릭되거나 리스트 아이템이 클릭될 때 각각의 행동을 내가 직접 정의해서 처리할 수 있음
+
+
++ 필드 선언 전체 코드
+
++ ```
+  private String[] list_items = {"item01","item02","item03","item04","item05","item06","item07","item08","item09","item10",
+        "item11","item12","item13","item14","item15"};
+Button btn01;
+ListView lv;
+```
+
+
+  
