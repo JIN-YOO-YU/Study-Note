@@ -5,6 +5,12 @@
 > + Hierarchy: 현재 씬(Scene)에 포함된 모든 GameObject를 계층 구조로 보여줍니다. 부모-자식 관계를 설정하거나 오브젝트를 추가 및 삭제할 수 있습니다
 > + Inspector: 선택한 GameObject의 속성과 컴포넌트를 편집할 수 있는 창입니다. Transform, Collider 등 다양한 컴포넌트 정보를 확인하고 수정할 수 있습니다
 > + Project: 프로젝트의 모든 파일과 에셋(Assets)을 관리하는 창으로, 폴더 구조를 통해 에셋을 정리하고 사용할 수 있습니다
-+ GameObject와 Component의 개념
-> + GameObject: Unity에서 모든 씬의 기본 단위입니다. 캐릭터, 환경, UI 등 모든 요소는 GameObject로 표현됩니다.
-> + Component: GameObject에 부착되어 특정 기능을 제공합니다. 예를 들어, Transform 컴포넌트는 위치, 회전, 크기를 정의하며, Rigidbody는 물리적 동작을 추가합니다
++ 유니티의 주요 구성 요소
+> + Scene: 게임의 특정 장면을 구성하는 공간. 각 장면은 여러 오브젝트로 이루어져 있습니다.
+> + GameObject: 게임 내에서의 모든 객체를 말하며, 물리적, 시각적, 논리적 기능을 수행하는 기본 요소입니다.
+> + Component: GameObject의 기능을 결정하는 요소로, 각 오브젝트에 부착하여 행동을 제어합니다. 예) Mesh Renderer, Collider, Rigidbody 등.
+> + Asset: 게임에서 사용되는 다양한 자료들, 예를 들어 텍스처, 모델, 오디오 파일 등이 있습니다.
+> + Prefab: 자주 사용되는 GameObject의 템플릿으로, 한번 설정한 객체를 여러 번 재사용할 수 있습니다.
++ 유니티 C# 스크립트 기본 구조
+> 1. using UnityEngine;
+> + UnityEngine 네임스페이스를 사용하여 유니티에서 제공하는 클래스와 기능을 사용할 수 있게 됩니다. 예를 들어, GameObject, Transform, MonoBehaviour, Input, Time 등의 클래스가 이 네임스페이스에 포함되어 있습니다.
