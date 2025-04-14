@@ -14,3 +14,13 @@
 + 유니티 C# 스크립트 기본 구조
 > 1. using UnityEngine;
 > > + UnityEngine 네임스페이스를 사용하여 유니티에서 제공하는 클래스와 기능을 사용할 수 있게 됩니다. 예를 들어, GameObject, Transform, MonoBehaviour, Input, Time 등의 클래스가 이 네임스페이스에 포함되어 있습니다.
+> 2. 클래스 선언: public class ExampleScript : MonoBehaviour
+> > + 스크립트의 클래스는 반드시 MonoBehaviour를 상속받아야 합니다. MonoBehaviour는 유니티에서 객체와 상호작용할 수 있도록 하는 기본 클래스입니다.
+> > + 클래스명은 스크립트 파일 이름과 동일해야 하며, 여기서는 ExampleScript라는 이름입니다.
+> 3. public과 private 변수
+> > + public: 이 변수는 유니티 에디터에서 조작할 수 있는 공개 변수입니다.
+> > + private: 이 변수는 스크립트 내에서만 접근 가능한 비공개 변수입니다.
+> 4. Start() 메서드
+> > + Start()는 게임 오브젝트가 활성화된 후 첫 번째 프레임에서 한 번만 호출됩니다. 주로 초기화 작업을 여기에서 처리합니다.
+> 5. Update() 메서드
+> > + Update()는 매 프레임마다 호출되는 메서드입니다. 게임 로직에서 자주 사용되는 메서드로, 사용자 입력을 처리하거나 오브젝트의 이동, 애니메이션 등을 제어할 때 사용됩니다.
