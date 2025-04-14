@@ -1,5 +1,5 @@
 # LISTVIEW 실습
-'''
+```
 package com.example.myapplication;
 
 import android.os.Bundle;
@@ -56,5 +56,5 @@ public class MainActivity extends AppCompatActivity
         Toast.makeText(this, "Click item = " + list_items[i], Toast.LENGTH_LONG ).show();
     }
 }
-'''
+```
 
