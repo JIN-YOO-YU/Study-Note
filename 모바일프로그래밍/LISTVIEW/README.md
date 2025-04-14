@@ -58,10 +58,13 @@ public class MainActivity extends AppCompatActivity
 }
 ```
 + 클래스 선언
+
   ```
 public class MainActivity extends AppCompatActivity 
         implements View.OnClickListener, AdapterView.OnItemClickListener {
 ```
+
+
 > + public: 이 클래스가 공개되어 있음(public)을 의미
 > + class MainActivity: MainActivity라는 이름의 클래스를 정의하고 안드로이드에서는 하나의 화면을 하나의 클래스로 표현하는 것이 일반적이므로 이 MainActivity는 앱의 첫 번째 화면을 담당
 > + extends: extends는 상속을 의미 즉 MainActivity는 AppCompatActivity의 기능을 상속받아 사용
