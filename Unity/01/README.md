@@ -13,4 +13,4 @@
 > + Prefab: 자주 사용되는 GameObject의 템플릿으로, 한번 설정한 객체를 여러 번 재사용할 수 있습니다.
 + 유니티 C# 스크립트 기본 구조
 > 1. using UnityEngine;
-> + UnityEngine 네임스페이스를 사용하여 유니티에서 제공하는 클래스와 기능을 사용할 수 있게 됩니다. 예를 들어, GameObject, Transform, MonoBehaviour, Input, Time 등의 클래스가 이 네임스페이스에 포함되어 있습니다.
+> > + UnityEngine 네임스페이스를 사용하여 유니티에서 제공하는 클래스와 기능을 사용할 수 있게 됩니다. 예를 들어, GameObject, Transform, MonoBehaviour, Input, Time 등의 클래스가 이 네임스페이스에 포함되어 있습니다.
