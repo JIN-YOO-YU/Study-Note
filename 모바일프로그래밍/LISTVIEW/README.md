@@ -59,7 +59,8 @@ public class MainActivity extends AppCompatActivity
 ```
 + 클래스 선언
 
-  ```
+
+```
 public class MainActivity extends AppCompatActivity 
         implements View.OnClickListener, AdapterView.OnItemClickListener {
 ```
@@ -72,9 +73,13 @@ public class MainActivity extends AppCompatActivity
 > + implements: implements는 해당 클래스가 특정 인터페이스를 구현 한다는 뜻
 > + View.OnClickListener: 버튼 같은 뷰가 클릭될 때 어떤 동작을 할지 정의할 수 있는 인터페이스
 이걸 구현했다는 건 이 클래스 안에 다음과 같은 메서드가 있어야 한다는 걸 의미
+
+
 ```
 @Override
 public void onClick(View v) {
     // 버튼 클릭 시 실행될 코드
 }
 ```
+
+
