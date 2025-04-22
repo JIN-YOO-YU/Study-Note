@@ -45,7 +45,7 @@ void SayHello()
 }
 SayHello();  // 함수 호출
 ```
-7. 🧱 클래스와 객체 (Class, Object)
+7. 클래스와 객체 (Class, Object)
 C#은 객체지향 언어 — 모든 게 클래스 기반
 ```
 class Person
@@ -63,7 +63,7 @@ Person p = new Person();
 p.name = "철수";
 p.SayName();
 ```
-8. ⚠️ 예외 처리 (try-catch)
+8. 예외 처리 (try-catch)
 ```
 try
 {
@@ -75,7 +75,7 @@ catch (DivideByZeroException e)
 }
 ```
 기본 구조
-C# 프로그램은 항상 이런 구조로 시작해:
+C# 프로그램은 항상 이런 구조로 시작:
 ```
 using System;
 
