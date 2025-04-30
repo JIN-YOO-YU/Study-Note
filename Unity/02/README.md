@@ -10,7 +10,6 @@
 3. 기본 이동 스크립트 예제
 4. ```
    using UnityEngine;
-
 public class PlayerMovement : MonoBehaviour
 {
     // 이동 속도를 조절할 수 있는 공개 변수
