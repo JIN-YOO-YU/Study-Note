@@ -44,6 +44,7 @@ public class PlayerJump : MonoBehaviour
 }
 ```
 4. 코드 설명
+
 | 코드 라인 | 설명 |
 |---|---|
 | `public float jumpForce = 5f;` | 점프의 힘을 조절할 수 있는 변수 |
