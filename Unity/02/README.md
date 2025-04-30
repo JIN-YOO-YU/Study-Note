@@ -30,8 +30,9 @@ public class PlayerMovement : MonoBehaviour
 }
 ```
 4. 코드 설명
+
 | 코드 라인 | 설명 |
-|-----------|------|
+|---|---|
 | `public float speed = 5f;` | 오브젝트의 이동 속도를 조절할 수 있는 변수입니다. 에디터에서 직접 조정 가능 |
 | `Input.GetAxis("Horizontal")` | 좌우 방향 키 입력을 받아 -1.0 ~ 1.0 범위의 값을 반환합니다 (A: -1, D: +1) |
 | `Input.GetAxis("Vertical")` | 상하 방향 키 입력을 받아 -1.0 ~ 1.0 범위의 값을 반환합니다 (S: -1, W: +1) |
