@@ -8,8 +8,8 @@
 + Unity Input System: 기본 입력 함수 사용 (기본 설정으로 가능)
 
 3. 기본 이동 스크립트 예제
-4. ```
-   using UnityEngine;
+```
+using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     // 이동 속도를 조절할 수 있는 공개 변수
