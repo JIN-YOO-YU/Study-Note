@@ -41,7 +41,11 @@ public class PlayerMovement : MonoBehaviour
 | `Time.deltaTime` | 프레임 간 시간 차를 곱해 **일정한 속도**를 유지하게 합니다 (프레임 속도에 따라 움직임 변화 방지) |
 5. 사용 방법
 > 1.3D Object > Cube 등으로 이동할 오브젝트를 생성합니다.
+> 
 > 2.PlayerMovement.cs라는 이름으로 새 스크립트를 생성하고 위 코드를 붙여넣습니다.
+> 
 > 3.Cube에 스크립트를 드래그해 추가하거나, Add Component 버튼으로 추가합니다.
+> 
 > 4.Speed 값을 조절해서 이동 속도를 테스트합니다.
+> 
 > 5.Play 버튼을 눌러 방향키(WASD 또는 방향키)로 이동을 확인합니다.
